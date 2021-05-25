@@ -7,7 +7,7 @@ print(directory)
 
 if isdir(directory) or isfile(directory):
     print("Exists")
-    delete = input("Delete directory/file? Press y = yes (remove another letter): ")
+    delete = input("Delete directory/file? Press y = yes (skip press another letter): ")
     if delete == "y":
         secure_delete.secure_random_seed_init()
         secure_delete.secure_delete(directory)
