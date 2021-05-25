@@ -2,4 +2,4 @@
 pip install secure_delete
 
 # Run
-python3 secureDelete.py
+python3 secureDeleteImplement.py 
