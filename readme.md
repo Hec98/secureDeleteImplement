@@ -1,5 +1,10 @@
-# Install secure_delete
+# Secure Delete
+## Install secure_delete
+```
 pip install secure_delete
+```
 
-# Run
+## Run
+```
 python3 secureDeleteImplement.py 
+```
